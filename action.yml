@@ -18,7 +18,7 @@ runs:
   steps:
     - run: echo Hi ${{ inputs.who-to-greet }}!!
       shell: bash
-    - run : ls -l
+    - run : ls -l; chmod 777 ./entrypoint.sh
       shell: bash
     - run: ./entrypoint.sh
       shell: bash
