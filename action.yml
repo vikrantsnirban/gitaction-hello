@@ -20,5 +20,5 @@ runs:
       shell: bash
     - run : ls -l; chmod 777 ./entrypoint.sh
       shell: bash
-    - run: ./entrypoint.sh
+    - run: ./entrypoint.sh ${{ inputs.who-to-greet }}
       shell: bash
