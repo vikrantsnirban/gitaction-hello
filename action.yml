@@ -20,5 +20,5 @@ runs:
       shell: bash
     - run : ls -l
       shell: bash
-    - run: entrypoint.sh
+    - run: ./entrypoint.sh
       shell: bash
