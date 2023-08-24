@@ -16,5 +16,5 @@ runs:
   #  - ${{ inputs.who-to-greet }}
   using: "composite"
   steps:
-    - run: echo "Jai Mata Di!!"
+    - run: echo Hi ${{ inputs.who-to-greet }}!!
       shell: bash
